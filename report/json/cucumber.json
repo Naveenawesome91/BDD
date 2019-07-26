@@ -1,0 +1,272 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "TC01",
+        "description": "",
+        "id": "check-the-automation-site;tc01",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10524713745,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login to the demo automation testing with url \"http://demo.automationtesting.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://demo.automationtesting.in/",
+                  "offset": 47
+                }
+              ],
+              "location": "Stepdefination.login(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3786351129,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click skip sign-in",
+            "match": {
+              "location": "Stepdefination.skip()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 332424251,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Register page should displayed",
+            "match": {
+              "location": "Stepdefination.registerpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285356702,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "close the browser",
+            "match": {
+              "location": "Stepdefination.browserclose()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "TC02",
+        "description": "",
+        "id": "check-the-automation-site;tc02;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7012203738,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "login to the demo automation testing with url \"http://demo.automationtesting.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://demo.automationtesting.in/",
+                  "offset": 47
+                }
+              ],
+              "location": "Stepdefination.login(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3908778503,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click skip sign-in",
+            "match": {
+              "location": "Stepdefination.skip()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 299477993,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Register page should displayed",
+            "match": {
+              "location": "Stepdefination.registerpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 363169914,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user Enters \"Naveen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Naveen",
+                  "offset": 13
+                }
+              ],
+              "location": "Stepdefination.Firstname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2376713779,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "close the browser",
+            "match": {
+              "location": "Stepdefination.browserclose()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SIT"
+          },
+          {
+            "line": 15,
+            "name": "@Firstname"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "TC02",
+        "description": "",
+        "id": "check-the-automation-site;tc02;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7304378827,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "login to the demo automation testing with url \"http://demo.automationtesting.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://demo.automationtesting.in/",
+                  "offset": 47
+                }
+              ],
+              "location": "Stepdefination.login(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4812542200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click skip sign-in",
+            "match": {
+              "location": "Stepdefination.skip()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226934000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Register page should displayed",
+            "match": {
+              "location": "Stepdefination.registerpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 341276864,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user Enters \"Naveen1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Naveen1",
+                  "offset": 13
+                }
+              ],
+              "location": "Stepdefination.Firstname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2402327423,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "close the browser",
+            "match": {
+              "location": "Stepdefination.browserclose()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SIT"
+          },
+          {
+            "line": 15,
+            "name": "@Firstname"
+          }
+        ]
+      }
+    ],
+    "name": "Check the automation site",
+    "description": "",
+    "id": "check-the-automation-site",
+    "keyword": "Feature",
+    "uri": "TC01.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SIT"
+      }
+    ]
+  }
+]
