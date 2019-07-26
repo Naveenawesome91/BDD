@@ -15,6 +15,7 @@ And close the browser
 @Firstname
 Scenario Outline: TC02
 
+
 Given login to the demo automation testing with url "http://demo.automationtesting.in/"
 
 When click skip sign-in
